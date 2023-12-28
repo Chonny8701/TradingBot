@@ -29,7 +29,7 @@ pip install -r requirements.txt
 Crea un archivo llamado .env para almacenar las variables de entorno:
 
 Fichero .env
-### Variables Binance (Se puede omitir)
+### Variables Binance (Se pueden dejar en blanco las variables)
 BINANCE_API_KEY = tu_api_key  
 BINANCE_SECRET_KEY = tu_clave_secreta  
 

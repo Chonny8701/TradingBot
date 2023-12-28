@@ -5,12 +5,12 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.io as pio
 from binance.client import Client
-from decouple import config
+import os
 
 
 # Configuración de la API de Binance
-binance_api_key = config('BINANCE_API_KEY')
-binance_secret_key = config('BINANCE_SECRET_KET')
+binance_api_key = os.environ.get('BINANCE_API_KEY')
+binance_secret_key = os.environ.get('BINANCE_SECRET_KET')
 print ("Valor binance api key: "+binance_api_key)
 client = Client(api_key=binance_api_key, api_secret=binance_secret_key)
 
