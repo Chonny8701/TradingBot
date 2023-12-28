@@ -25,7 +25,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-## 4. Crear el Archivo de Variables de Entorno (Se puede omitir)
+## 4. Crear el Archivo de Variables de Entorno (Se puede crear el fichero y no asignarle ningúun valor a las variables)
 Crea un archivo llamado .env para almacenar las variables de entorno:
 
 Fichero .env
